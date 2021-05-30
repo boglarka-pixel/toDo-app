@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    height: 800px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(100, 98, 98);
+    width: 40%;
+    min-width: 400px;
+    height: 70%;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 12px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(39, 38, 38, .9);
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(75, 67, 67);
+    color: white;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(100, 98, 98);
+    font-size: 12px;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.form-control:hover {
+    border-color: rgb(84, 233, 84);
+}
+
+.input-container i {
+    position: absolute;
+    padding: 15px;
+    color: rgb(100, 98, 98);
+    width: 70px;
+    text-align: right;
+    margin-left: 160px;
+}
+
+.login {
+    display: flex;
+    margin-top: 30px;
+    color: rgb(76, 84, 90)
+}
+
+.login a {
+    font-size: large;
+    display: inline;
+    color: rgb(34, 125, 148);
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+button>a {
+    color: white;
+    font-size: 16px;
+}
+
+button>a:hover {
+    color: yellowgreen;
+}
